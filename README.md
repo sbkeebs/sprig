@@ -1,4 +1,4 @@
-![img/sprig_logo.png]
+![sprig logo](img/sprig_logo.png)
 
 Astra Tanuki 2024
 
