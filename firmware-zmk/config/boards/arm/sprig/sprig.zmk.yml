@@ -1,0 +1,10 @@
+file_format: "1"
+id: sprig
+name: Sprig
+type: board
+arch: arm
+features:
+  - keys
+outputs:
+  - usb
+url: https://github.com/sbkeebs/sprig

@@ -1,0 +1,48 @@
+/*
+ * Copyright (c) 2020 The ZMK Contributors
+ *
+ * SPDX-License-Identifier: MIT
+ */
+
+#include <behaviors.dtsi>
+#include <dt-bindings/zmk/keys.h>
+
+#define L_1 1
+#define L_2 2
+
+/ {
+        keymap {
+                compatible = "zmk,keymap";
+
+        base_layer {
+            label = "Base";
+            bindings = <
+       &kp Q     &kp W  &kp F      &kp P    &kp B         &kp J         &kp L     &kp U     &kp Y   &kp BKSP
+       &kp A     &kp R  &kp S      &kp T    &kp G         &kp M         &kp N     &kp E     &kp I   &kp O   
+       &kp Z     &kp X  &kp C      &kp D    &kp V         &kp K         &kp H     &kp COMMA &kp DOT &kp SLASH     
+                         &kp LCTRL &mo LALT &lt L_1 ENTER &lt L_2 SPACE &kp MINUS &kp EQUAL
+            >;
+        };
+
+        layer_1 {
+            label = "L_1";
+            bindings = <
+       &kp ESC   &trans &trans     &trans    &trans       &trans        &trans    &trans    &trans  &kp SEMI
+       &sk LCTRL &trans &trans     &K_VOL_UP &trans       &trans        &trans    &trans    &trans  &kp QUOTE
+       &sk LSHFT &trans &trans     &K_VOL_DN &trans       &trans        &trans    &trans    &trans  &kp GRAVE
+                         &kp LSHFT &kp LGUI  &trans       &kp LSHFT     &kp LBKT  &kp RBKT
+            >;
+        };
+
+        layer_2 {
+            label = "L_2";
+            bindings = <
+       &kp N1    &kp N2 &kp N3     &kp N4    &kp N5        &kp N6       &kp N7    &kp N8    &kp N9  &kp N0
+       &kp TAB   &trans &trans     &kp N6    &kp EQUAL     &trans       &kp LEFT  &KP DOWN  &kp UP  &kp RIGHT
+       &trans    &trans &trans     &trans    &trans        &trans       &trans    &trans    &trans  &trans
+                         &kp LSHFT &kp LGUI  &kp LSHFT     &trans       &trans
+            >;
+        };
+
+        };
+};
