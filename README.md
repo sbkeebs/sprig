@@ -1,8 +1,8 @@
 ![sprig logo](img/sprig_logo.png)
 
-Astra Tanuki 2024
-
-10 columns in a modified Katana layout.
+★ 10 columns in a modified Katana layout. 
+★ inner columns are moved down a bit for an ergo-light curve. 
+★ spacebar layout supports ISO enter for either or both bars. 
 
 ### This repo should contain:
 - KiCAD 8 files for the PCB
