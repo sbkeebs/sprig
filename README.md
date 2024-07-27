@@ -9,7 +9,7 @@
 ### This repo should contain:
 - KiCAD 8 files for the PCB
 - production files (gerbers, JLC BOM, CPL, etc) -- definitely double check the part numbers/availability before committing to fabrication! 
-- a .stl for the case
+- printable files for the case (i am not very experienced in 3D design, but i have confirmed that it works!)
 - firmware in both qmk/vial and zmk, and source for each
 
 ### To build your own zmk keymap
