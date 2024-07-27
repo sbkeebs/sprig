@@ -1,1 +1,1 @@
-# sprig by astra tanuki
+# Vial firmware for Sprig by astra tanuki
