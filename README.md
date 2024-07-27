@@ -11,6 +11,6 @@ Astra Tanuki 2024
 - firmware in both qmk/vial and zmk, and source for each
 
 ### To build your own zmk keymap
-Fork [this repo](https://github.com/sbkeebs/sprig-zmk-config), and enable Actions. Modify `config/boards/arm/sprig`. Let it build (click Actions at the top of your repo).
+Fork [this repo](https://github.com/sbkeebs/sprig-zmk-config), and enable Actions. Modify `config/boards/arm/sprig/sprig.keymap`. Let it build (click Actions at the top of your repo).
 
 ZMK Studio is not yet integrated!
