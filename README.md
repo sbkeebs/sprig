@@ -17,4 +17,6 @@ Fork [this repo](https://github.com/sbkeebs/sprig-zmk-config), and enable Action
 
 ZMK Studio is not yet integrated!
 
+This was built upon NCKiser's [STM32F072 template](https://github.com/NCKiser/STM32F072_template) as one of my first projects with an integrated MCU. If you'd like to get started with your own keyboard, [this video](https://www.youtube.com/watch?v=kGKN8SGkUD0) is a great place to start.
+
 ![photo of sprig](img/IMG_7637.jpg)
